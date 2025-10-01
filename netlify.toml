@@ -1,9 +1,10 @@
 [build]
-  command = "npm run build"
+  command = "npm ci && npm run build && echo 'Build completed successfully'"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
+  NPM_FLAGS = "--prefer-offline --no-audit --no-fund"
 
 [[redirects]]
   from = "/*"
@@ -14,12 +15,12 @@
   skip_processing = false
 
 [build.processing.css]
-  bundle = true
-  minify = true
+  bundle = false
+  minify = false
 
 [build.processing.js]
-  bundle = true
-  minify = true
+  bundle = false
+  minify = false
 
 [build.processing.html]
-  pretty_urls = true
+  pretty_urls = false

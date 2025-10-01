@@ -11,13 +11,23 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    minify: 'terser',
+    minify: 'esbuild',
+    target: 'es2015',
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-          ui: ['bootstrap', 'bulma'],
-          utils: ['papaparse', 'aos', 'typewriter-effect']
+        manualChunks: (id) => {
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom')) {
+              return 'vendor';
+            }
+            if (id.includes('bootstrap') || id.includes('bulma')) {
+              return 'ui';
+            }
+            if (id.includes('papaparse') || id.includes('aos') || id.includes('typewriter-effect')) {
+              return 'utils';
+            }
+            return 'vendor';
+          }
         }
       }
     }
