@@ -147,7 +147,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
                   className={`nav-link ${activeTab === 3 ? 'active' : ''}`}
                   onClick={() => handleTabClick(3)}
                 >
-                  Data Visualizations
+                  Data Products
                 </button>
               </li>
               <li className='nav-item'>
