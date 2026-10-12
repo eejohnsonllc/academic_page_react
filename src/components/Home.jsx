@@ -88,35 +88,35 @@ const Home = () => {
             <div className='content' id='index-intro'>
               <div className='container'>
                 <p className='block'>
-                  Dr. Evan Johnson is a researcher with the University of North
-                  Carolina at Chapel Hill with over ten years of experience in
-                  quantitative research and policy analysis. His research
-                  focuses on innovation and public policy, with specific foci
-                  including energy innovation, climate stabilization and the
-                  impacts of Federal R&D funding on high-tech firms. His work
-                  involves heavy use of econometric, geo-spatial, and data
-                  science tools to solve economic problems in energy and
-                  innovation.
+                  Dr. Evan Johnson is a Research Assistant Professor with the
+                  University of North Carolina at Chapel Hill with over fifteen
+                  years of experience in quantitative research and policy
+                  analysis. His research focuses on innovation and public
+                  policy, with specific foci including energy innovation,
+                  climate stabilization and the impacts of Federal R&D
+                  funding on high-tech firms. His work involves heavy use of
+                  econometric, geo-spatial, and data science tools to solve
+                  economic problems in energy and innovation.
                 </p>
 
                 <p className='block'>
                   His published work appears in leading academic journals,
                   including Research Policy and Energy Research & Social
-                  Science. He serves as Principal Consultant on two Evaluation
-                  Panels at the U.S. National Academies of Science, Engineering
-                  and Medicine, where he has authored reports for Congress to
-                  aid in evaluating Public R&D programs for innovation and
-                  entrepreneurship. He also has won NSF grants to study
-                  government incentives for innovation and small businesses.
+                  Science. He serves as a Consultant to multiple U.S. federal
+                  agencies, including U.S. National Academies of Science,
+                  Engineering and Medicine, where he has authored reports for
+                  Congress to aid in evaluating Public R&D programs for
+                  innovation and entrepreneurship. He also has won NSF grants
+                  to study government incentives for innovation and small
+                  businesses.
                 </p>
 
                 <p className='block'>
-                  Dr. Johnson is an Adjunct Teaching Assistant Professor at
-                  UNC-Chapel Hill. He has taught numerous courses in public
-                  policy and public administration, including research design,
-                  methods for analysis and evaluation, quantitative methods for
-                  policy analysis, and energy policy. Dr. Johnson holds masters
-                  and doctoral degrees in public policy from the University of
+                  He has taught numerous courses in public policy and public
+                  administration, including research design, methods for
+                  analysis and evaluation, quantitative methods for policy
+                  analysis, and energy policy. Dr. Johnson holds masters and
+                  doctoral degrees in public policy from the University of
                   Wisconsin and the University of North Carolina, respectively.
                 </p>
               </div>
